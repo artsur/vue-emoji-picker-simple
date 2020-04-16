@@ -20,6 +20,10 @@ or register component globally
 | localStorageName | String | 'simple_emoji' | Name of local storage variable (for recently used) |
 | maxRecent | Number | 10 | The maximum number of recently used emojis stored in the local storage |
 
+### Events
+
+***select*** - return Object of structure: {name: 'emoji_name', native: emoji_code}
+
 ## Example
 
 ```vue
